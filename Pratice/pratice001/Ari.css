@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+img{
+    box-shadow: 5px 5px 10px rgba(12, 12, 12, 0.582);   
+}
+a{
+    text-decoration: none;
+}
+a#pg1{
+    color: #111111;
+}
+main{
+    align-items: normal;
+    top: 10px;
+}
+
+
+body{
+    background-image: linear-gradient(45deg, rgb(172, 55, 119),rgb(172, 55, 119), #5a8618, #5a8618);
+        }
+
+ div#inicio{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(#ffd174, #e64a4d );
+    width: 200%;
+    padding: 3px;
+    padding-left: 10px;
+    margin: 3px;
+    border-radius: 3px 10px 3px 10px;
+ }  
+ div#pags{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(#e64a4d, #ffd174 );
+    width: 200%;
+    padding: 3px;
+    padding-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 10px 3px 10px 3px;
+ }
+ .pags{
+    color: #111111;
+ }
+ .linkp{
+    width: 50px;
+    border-radius: 3px;
+    padding: 10px;
+ }
+ .linkp:hover{
+    background-image: linear-gradient(#ffffff, #858484);
+    
+ }
+
+h3#yours{
+    text-decoration: none; 
+    text-shadow: 4px 4px 5px rgb(44, 40, 40);font-family:dancing script, cursive;
+}
+.mlr{
+    text-align:left;
+    text-shadow: 3px 3px 4px#111111;
+    
+    
+}
+main#yours{
+    background-color: #f597bf;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.534);
+    width: 350px;
+    min-height: 300px;
+    padding: 10px;
+    text-align: center;
+}
+main:hover#yours{
+    background-color: #f383b4;
+}
+a#yours{
+    color: #f597bf;
+}
+a:hover#yours{
+    color: #f383b4;
+}
+a:active#yours{
+    color: #f16fa8;
+}
+h3#myeverything{
+    text-decoration: none; 
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.507);font-family: 'sun', open sans, sans-serif;
+}
+main#myeverything{
+    text-align: center; 
+    background-color:  rgb(68, 64, 64); border-radius: 10px; 
+    box-shadow: 3px 3px 10px 3px rgba(49, 43, 43, 0.623);
+    margin: 15px;
+    min-height: 300px;
+    width: 370px; 
+    padding: 10px;
+}
+main:hover#myeverything{
+    background-color: rgb(66, 59, 59);
+}
+a#myeverything{
+    color: #A6A6A6;
+}
+a:hover#myeverything{
+    color: #737373;
+}
+a:active#myeverything{
+    color: #404040;
+}
+
+h3#dangerous{
+    text-decoration: none; 
+    text-shadow: 3px 3px 4px black; font-family: special elite, monospace;
+}
+main#dangerous{
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.527); 
+    text-align: center; 
+    width: 350px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px; 
+    padding: 10px;
+}
+main:hover#dangerous{
+    background-color:#171718 ;
+}
+a#dangerous{
+    color: #c0c0c0 ;
+}
+a:hover#dangerous{
+    color: #727273;
+}
+a:active#dangerous{
+    color: #3F3F40;
+}
+h3#sweetener{
+    text-decoration: none;
+    text-shadow: 3px 3px 4px rgb(43, 41, 41);
+    font-family: oswald, sans-serif;
+}
+main#sweetener{
+    background-color: #d4c1aa;
+    border-radius: 10px;
+    text-align: center;
+    height: 100%;
+    max-width: 350px;
+    box-shadow: 3px 3px 10px 3px #978a796c;
+    padding: 10px;
+    
+}
+main:hover#sweetener{
+    background-color: #c5b29a;
+}
+a#sweetener{
+    color: #cfbba3 ;
+}
+a:hover#sweetener{
+    color: #d1b490;
+}
+a:active#sweetener{
+    color: #c79f6e;
+}
+h3#thanku{
+    text-decoration: none;
+    text-shadow: 3px 3px 4px rgb(43, 41, 41);
+    font: thank, open sans, sans-serif;
+}
+main#thanku{
+    background-color: #a88296;
+    border-radius: 10px;
+    text-align: center;
+    height: 100%;
+    max-width: 350px;
+    box-shadow: 3px 3px 4px rgb(100, 73, 73);
+    padding: 10px;
+}
+a#thank{
+    color: #ac7e96;
+}
+a:hover#thank{
+    color: #aa7691;
+}
+a:active#thank{
+    color: #aa698c;
+}
+main#posi{
+    background-color: #5a8618;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    min-height: 300px;
+    max-width: 350px;
+    box-shadow: 4px 4px 5px black
+    
+}
+h3#posi{
+    text-shadow: 3px 3px 4px black ;
+}
+a#posi{
+    color: #97C5B0;
+}
+a:hover#posi{
+    color: #7fa594;
+}
+a:active#posi{
+    color: rgb(111, 145, 129);
+}
+        

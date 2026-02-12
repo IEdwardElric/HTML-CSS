@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+body{
+    background-image: linear-gradient(to right, #034159, #0CF25D )
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #022938;
+    width: 600px;
+    padding: 10px;
+    margin:auto;
+}
+h1{
+    color: #038C3E;
+    text-align: center;
+    text-shadow: 1px 1px 2px #034e23c5;
+    font-family: "dancing script", cursive;
+    
+}
+h2{
+    color: #02735E;
+}
+
+p{
+    text-align: justify;
+}
+/*linear-gradient(to right, #034159,#0CF25D);*/

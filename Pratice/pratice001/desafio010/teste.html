@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+    gap: 10px;
+}
+
+.galeria img {
+    width: 100%;
+    display: block;
+    border-radius: 8px; /* opcional */
+}
+
+/* A imagem grande */
+.galeria img.grande {
+    grid-column: span 2; /* ocupa as duas colunas */
+}
+    </style>
+</head>
+<body>
+
+<div class="galeria">
+    <img src="img1.jpg" class="grande">
+    <img src="img2.jpg">
+    <img src="img3.jpg">
+    <img src="img4.jpg">
+    <img src="img5.jpg">
+    <img src="img6.jpg">
+</div>
+
+
+</style>
+</body>
+</html>

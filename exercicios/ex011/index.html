@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <style>
+        body {
+            background-color: rgb(65, 57, 57);
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.</p>
+    
+     <picture>
+        <source media="(max-width: 750px)" srcset="pacote-projeto-d010/imagens/dan-droids-pq.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.webp" type="image/png">
+        <img src="imagens/foto-g.webp" alt="Imagem flexível">
+     </picture>
+
+     <h1>Reproduzindo Áudio</h1>
+     <p>Vamos aprender a repoduzir áudios em HTML5.</p>
+     <audio src="Miídia/Sugar.mp3" controls autoplay></audio>
+     <audio src="Miídia/WhatsApp Audio 2025-10-13 at 09.31.20.mpeg" controls autoplay></audio>
+</body>
+</html>
