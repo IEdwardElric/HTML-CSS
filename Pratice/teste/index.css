@@ -1,0 +1,112 @@
+@charset "UTf-8";
+
+body{
+    background-color: rgb(104, 196, 104);
+    
+}
+
+main#cima{
+    text-align: center;
+    color: rgb(216, 214, 214);
+    background-image: linear-gradient(#37c878, #05361b);
+    margin: -10px;
+    
+    padding: 10px;
+   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.801);
+}
+
+.inicio:hover{
+    background-color: #13753f;
+    
+    
+}
+.inicio{
+    width: 100%;
+    display: flex; gap: 10px;
+    border-radius: 5px;
+    height: 70%;
+    font-size: 17px;
+}
+
+a{
+    color: rgb(211, 211, 211);
+    text-decoration: none;
+}
+
+div#primeira{
+    background-color: #033017;
+    text-shadow: 3px 3px 3px black;
+    color: rgb(216, 214, 214);
+    margin: -10px;
+}
+
+
+
+main#primeirapag{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    max-width: 45%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin: 10px auto;
+}
+main#primeirapag > h1{
+    color: rgb(11, 70, 9);
+    background-color: rgba(110, 173, 110, 0.568);
+    font-family: 'and',open sans, sans-serif ;
+    
+}
+main#primeirapag > h3{
+    margin: 10px;
+    text-align: justify;
+}
+main#primeirapag > picture{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+h3{
+    margin-left: 50px;
+}
+h3#link > a{
+    text-decoration: none;
+    color: green;
+}
+h3#link > a::after{
+    content: '➡️';
+}
+
+picture > img{
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+video{
+     width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+div#video{
+    padding: 20px;
+    margin: -10px;
+    background-color: #13753f;
+}
+main#coluna{
+    border-radius: 10px;
+   background-color: #abccba;
+}
+main#coluna > h2{
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    background-color: #2a945a;
+    text-align: left;
+    padding: 10px;
+}
+span{
+   text-decoration: none;
+}
