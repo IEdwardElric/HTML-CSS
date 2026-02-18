@@ -72,6 +72,10 @@ main#yours{
     padding: 10px;
     text-align: center;
 }
+li:active#yourst > a{
+    color: #22c1e9;
+}
+
 main:hover#yours{
     background-color: #f383b4;
 }
@@ -145,7 +149,7 @@ main#sweetener{
     text-align: center;
     height: 100%;
     max-width: 350px;
-    box-shadow: 3px 3px 10px 3px #978a796c;
+    box-shadow: 3px 3px 10px 3px #6d605098;
     padding: 10px;
     
 }
@@ -172,7 +176,7 @@ main#thanku{
     text-align: center;
     height: 100%;
     max-width: 350px;
-    box-shadow: 3px 3px 4px rgb(100, 73, 73);
+    box-shadow: 3px 3px 4px rgba(128, 88, 88, 0.562);
     padding: 10px;
 }
 a#thank{

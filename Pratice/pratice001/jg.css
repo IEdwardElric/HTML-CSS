@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 body{
-    background-image: linear-gradient(rgb(179, 177, 177), rgb(104, 104, 104));
+    background-image: linear-gradient(#8d511c, #913310)
 }
 
 main{
-    background-image: linear-gradient(#0c368a, #042940);
+    background-image: linear-gradient(#744612, #47462d);
     text-align: center;
     width: 100%;
     border-radius: 10px;
@@ -17,7 +17,7 @@ main{
     
 }
 .inicio:hover{
-    color: black;
+    color: rgb(107, 105, 105);
     background-color: rgb(153, 193, 228);
     height: 65px;
 }
@@ -32,7 +32,7 @@ main{
 
 div#inicio{
     color: rgb(177, 171, 171);
-    background-color: #005C53;
+    background-image: linear-gradient(#86030e, #ffffff31);
     width: 100%;
     display: flex; gap: 10px;
      border-radius: 10px;
@@ -40,30 +40,27 @@ div#inicio{
 
 }
 
-div#img{
-    
-    background-image: linear-gradient(#038C73, #014034);
-    width: 100%;
-    border-radius: 10px;
-    padding: 15px;
-    margin: 16px 0px -4px -8px;
-    height: 140px;
-}
-    
-
-.foto{
-    display: inline-block;
-    
-}
-div > img{
-    margin:10px;
-}
-div#img2{
-    background-image: linear-gradient(#038C73, #014034);
-    width: 100%;
-    border-radius: 10px;
-    padding: 15px;
-    margin: 16px 0px -4px -8px;
-    
+.jg{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
 }
 
+.item{
+    background-color: #1C261C;
+    padding: 1rem;
+    border: 1px solid rgb(86, 86, 99);
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .jg {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .jg {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
