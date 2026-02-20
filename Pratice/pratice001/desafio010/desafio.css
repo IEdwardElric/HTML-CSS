@@ -79,17 +79,21 @@ h3#link > a::after{
     content: '➡️';
 }
 
-picture > img{
+.imagem{
     width: 100%;
     height: auto;
     display: block;
     
 }
 video{
+    justify-content: center;
      width: 100%;
     height: auto;
     display: block;
     border-radius: 10px;
+}
+.respvideo {
+    max-width: 700px;
 }
 div#video{
     padding: 20px;
@@ -109,5 +113,23 @@ main#coluna > h2{
 }
 span{
    text-decoration: none;
+}
+.linha{
+   display: flex;
+   justify-content: space-between;
+   gap: 40px;
+   padding: 0px 130px 0px 17px;
+   text-align: justify;
+}
+                     
+
+.coluna p{
+   margin: 5px 0;
+}
+@media(min-width: 600px){
+    .imagem{
+        width: 100% ;
+        margin-bottom: 0;
+    }
 }
 

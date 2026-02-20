@@ -1,52 +1,52 @@
 @charset "UTF-8";
 
-body{
+body {
     background-image: linear-gradient(#8d511c, #913310)
 }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(12, 99, 12);
+    padding: 10px 20px;
+}
+.logo {
+    font-size: 1.5rem;
+    color: white;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    grid-template-columns: 1fr;
+    gap: 1fr;
+}
 
-main{
-    background-image: linear-gradient(#744612, #47462d);
-    text-align: center;
-    width: 100%;
-    border-radius: 10px;
-    padding: 15px;
-    margin: -10px;
+.nav-links li {
+    margin: 0 15px;
 }
-.inicio{
-    padding: 3px 16px 2px 10px;
-    
-}
-.inicio:hover{
-    color: rgb(107, 105, 105);
-    background-color: rgb(153, 193, 228);
-    height: 65px;
-}
-.lini{
+.nav-links a {
     color: white;
     text-decoration: none;
-
-}
-.lini:hover{
-    color: black;
 }
 
-div#inicio{
-    color: rgb(177, 171, 171);
-    background-image: linear-gradient(#86030e, #ffffff31);
-    width: 100%;
-    display: flex; gap: 10px;
-     border-radius: 10px;
-    height: 70px;
-
+.linhas {
+    display: none;
+    cursor: pointer;
+}
+.linhas div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
 }
 
-.jg{
+.jg {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
 }
 
-.item{
+.item {
     background-color: #1C261C;
     padding: 1rem;
     border: 1px solid rgb(86, 86, 99);
@@ -62,5 +62,22 @@ div#inicio{
 @media (min-width: 1024px) {
     .jg {
         grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .nav-links.nav-active{
+        display: flex;
+    }
+    .nav-links li{
+        margin: 10px 0;
+    }
+    .linhas {
+        display: block;
     }
 }
